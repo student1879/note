@@ -1,0 +1,18 @@
+[project]
+name = "note"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "student1879",email = "student1879@yandex.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi (>=0.139.0,<0.140.0)",
+    "uvicorn[standard] (>=0.50.0,<0.51.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
